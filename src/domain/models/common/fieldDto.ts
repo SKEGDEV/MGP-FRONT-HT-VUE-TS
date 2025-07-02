@@ -8,6 +8,7 @@ export interface fieldDto{
   regExValid: string;
   placeholder: string;
   example: string;
+  isDisabled: boolean;
 }
 
 
@@ -20,6 +21,7 @@ export const fieldStringDefault: fieldDto = {
   regExValid: '',
   placeholder: '',
   example: '',
+  isDisabled: false,
 }
 
 export const fieldNumberDefault: fieldDto = {
@@ -31,6 +33,7 @@ export const fieldNumberDefault: fieldDto = {
   regExValid: '',
   placeholder: '',
   example: '',
+  isDisabled: false,
 }
 
 export const fieldDateDefault: fieldDto = {
@@ -42,4 +45,5 @@ export const fieldDateDefault: fieldDto = {
   regExValid: '',
   placeholder: '',
   example: '',
+  isDisabled: false,
 }

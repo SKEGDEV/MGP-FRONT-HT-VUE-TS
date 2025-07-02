@@ -21,4 +21,20 @@ export interface qualificateActivityDto{
   declarative: qualifyingDto;
 }
 
+const qualificationDefault: qualificationDto = {
+  typeId:{
+    ...fieldNumberDefault,
+    placeholder: fieldsPlaceHolder.selectPOV
+                                  .replace('@field', 'type of your activity')
+				  .replace('@required', '*'),
+    name: 'typeId@qualfication@qualificateActivityDto', 
+  },
+  activityStudentId:{
+    ...fieldNumberDefault,
+    name: 'activityStudentId@qualfication@qualificateActivityDto', 
+  },
+}
 
+const attitudinalDefault: qualifyingDto = {
+
+}
